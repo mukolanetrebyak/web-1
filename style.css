@@ -1,0 +1,383 @@
+html,
+body {
+	background:url("https://wallpaperaccess.com/full/39610.jpg");
+	margin: 20px 20px 20px 20px;
+	background-attachment:fixed;
+	overflow-x:hidden;
+	background-size: 2000px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 50px;
+  height: 50px;
+  border-radius:50px;
+}
+
+.header .lang a {
+  color: #ffffff;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+	margin-right: 50px;
+	list-style-type: none;
+}
+
+.menu li a {
+  color: #f2f2ff;
+  text-decoration: none;
+  position: relative;
+}
+
+.main-ctn {
+  height: 500px;
+  color: #ffffff;
+  text-align: center;
+  background: url('./assets/wifi-moon.webp');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius:30px;
+}
+.text1{
+	color:silver;
+	height: 550px;
+	width:400px;
+	text-align: left;
+	font-family:Montserrat, Arial, sans-serif;
+	font-size:15px;
+	background:black;
+	padding:10px;
+	border-radius:10px;
+}
+label{
+	margin:10px;
+	color:silver;
+	font-family:sans-serif;
+	font-size:14px;
+}
+
+.sidebar{
+	float:right;
+	width:69.5%;
+	
+}
+.menu*{
+	margin:0;
+	padding:0;
+}
+.menu > ul li a{
+	display:block;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,119,1) 35%, rgba(0,212,255,1) 100%);
+	padding: 15px 30px 15px 30px;
+	font-size:14px;
+	color:white;
+	text-decoration:none;
+	border-color:black;
+	border-radius:10px;
+	text-transform:uppercase;
+	transition:all 0.3s ease;
+	}
+.menu > ul li>a i.fa{
+	top:15px;
+	left:12px;
+	font-size:18px;
+}
+.menu li a:hover{
+	background:#454547;
+	color:#ffffff;
+	box-shadow: 1px 5 px 10px -5px black;
+	transition:all 0.3s ease;
+}
+.menu li ul{
+	position:absolute;
+	min-width:150px;
+	display:none;
+}
+.menu li> ul li {
+	border: 1px solid #c7c8ca;
+}
+.menu li> ul li a{
+	padding:10px;
+	text-transform:none;
+	background:#e4e4e5;
+}
+.menu li> ul li ul{
+	float: center;
+	right:-150px;
+	top:0;
+}
+.menu li:hover>ul{
+	display:block;
+}
+.mars{
+	font-family:"Cuprum", sans-serif;
+	font-size:70px;
+	color:silver;
+	text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+#myBtn {
+    width: 250px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+    color: white;
+    cursor: pointer;
+	border-radius:	15px;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn1 {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+	border-radius:15px;
+    color:white;
+    cursor: pointer;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn2 {
+    width: 250px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+    color: white;
+    cursor: pointer;
+	border-radius:	15px;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn3 {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+	border-radius:15px;
+    color:white;
+    cursor: pointer;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn4 {
+    width: 320px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+	border-radius:15px;
+    color:white;
+    cursor: pointer;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn5 {
+    width: 230px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+    color: white;
+    cursor: pointer;
+	border-radius:	15px;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+	margin-top:5px;
+}
+#myBtn6 {
+    width: 350px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+	border-radius:15px;
+    color:white;
+    cursor: pointer;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn7 {
+    width: 250px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+    color: white;
+    cursor: pointer;
+	border-radius:	15px;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn8 {
+    width: 270px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+	border-radius:15px;
+    color:white;
+    cursor: pointer;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+#myBtn9 {
+    width: 320px;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+	border-radius:15px;
+    color:white;
+    cursor: pointer;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+}
+.inf1{
+    width: 100px;
+	height:25px;
+	margin:50px;
+	float:bottom;
+    font-size: 18px;
+    padding: 10px;
+    border-color: black;
+    background: none;
+	border-radius:15px;
+    color:white;
+    cursor: pointer;
+	font-family:Montserrat, Arial, sans-serif;
+	text-shadow: 3px 3px 3px black;
+	border: solid;
+}
+.inf1:hover{
+	background:silver;
+}
+.form1{
+	width:100%;
+	height:150px;
+	background:#424949;
+	border-radius:20px;
+}
+#btm_form1{
+	margin-top:15px;
+	margin-left:30px;
+	background:blue;
+	border-radius:10px;
+	padding:15px;
+	font-family:Montserrat, Arial, sans-serif;
+	color:white;
+}
+#btm_form1:hover{
+	background:white;
+	color:black;
+}
+
+input{
+  padding: 10px 6px;
+  margin-top:35px;
+  margin-left:10px;
+  box-sizing: border-box;
+  border-radius:5px;
+  background:fixed;
+  color:white;
+}
+
+
+#myBtn:hover {
+	border:none;
+    background:blue;
+}
+#myBtn1:hover {
+	border:none;
+    background:blue;
+}
+#myBtn2:hover {
+	border:none;
+    background:blue;
+}
+#myBtn3:hover {
+	border:none;
+    background:blue;
+}
+#myBtn4:hover {
+	border:none;
+    background:blue;
+}
+#myBtn5:hover {
+	border:none;
+    background:blue;
+}
+#myBtn6:hover {
+	border:none;
+    background:blue;
+}
+#myBtn7:hover {
+	border:none;
+    background:blue;
+}
+#myBtn8:hover {
+	border:none;
+    background:blue;
+}
+#myBtn9:hover {
+	border:none;
+    background:blue;
+}
+.content{
+	height:500px;
+}
+#frame1{
+	height:600px;
+	width:450px;
+	border-radius:20px;
+	background:#283747;
+	margin-left:40px;
+}
+#frame2{
+	height:600px;
+	width:450px;
+	border-radius:20px;
+	background:#283747;
+	margin-left:10px;
+	margin-top:100px;
+}
+#frame3{
+	height:600px;
+	width:450px;
+	border-radius:20px;
+	background:#283747;
+	margin-left:10px;
+}
+#frame1:hover {
+	background:blue;
+}
+#frame2:hover {
+	background:blue;
+}
+#frame3:hover {
+	background:blue;
+}
